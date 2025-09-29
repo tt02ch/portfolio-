@@ -205,8 +205,8 @@ export default function Portfolio() {
                     >
                         <p>Luôn sẵn sàng trao đổi về cơ hội intern/fresher QA/Tester tại TP.HCM/Bình Dương.</p>
                         <ul className="space-y-2">
-                            <li>📧 Email: <a className="text-primary hover:underline" href="mailto:viettruong@example.com">viettruong@example.com</a></li>
-                            <li>📱 Phone: <a className="text-primary hover:underline" href="tel:+84000000000">+84 000 000 000</a></li>
+                            <li>📧 Email: <a className="text-primary hover:underline" href="mailto:nguyenviettruong1808@gmail.com">nguyenviettruong1808@gmail.com</a></li>
+                            <li>📱 Phone: <a className="text-primary hover:underline" href="tel:+84399890382">0399890382</a></li>
                             <li>💼 LinkedIn/GitHub: cập nhật sau</li>
                         </ul>
                     </motion.div>
