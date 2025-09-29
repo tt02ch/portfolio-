@@ -11,8 +11,8 @@ function App() {
   return (
    <>
     <Header/>
-    <Homes/>
-    <Footer/>
+    {/* <Homes/> */}
+    {/* <Footer/> */}
    </>
   );
 }

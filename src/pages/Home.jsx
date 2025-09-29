@@ -5,9 +5,7 @@ import { Skills } from "../components/Skills"
 export const Homes = () => {
     return (
         <>
-           <AboutMe/>
-           <Skills/>
-           <Projects/>
+        
         </>
     )
 }
