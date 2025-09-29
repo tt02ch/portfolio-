@@ -16,10 +16,10 @@ export default function Portfolio() {
 
   // Replace with your image URLs (1–3 images)
   const images = [
-    'C:\\Docker\\portfolio-\\public\\img\\rf1.jpg',
-    'C:\\Docker\\portfolio-\\public\\img\\image.png',
-    'C:\\Docker\\portfolio-\\public\\img\\ss.jpg',
-    'C:\\Docker\\portfolio-\\public\\img\\DienKinh -- 2024 - TDMU.jpg'
+    '../../public/img/rf1.jpg',
+    '../../public/img/image.png',
+    '../../public/img/ss.jpg',
+    '../../public/img/DienKinh -- 2024 - TDMU.jpg'
   ].filter(Boolean)
 
   const [menuOpen, setMenuOpen] = useState(false)
