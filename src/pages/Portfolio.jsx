@@ -17,9 +17,11 @@ export default function Portfolio() {
     // Replace with your image URLs (1–3 images)
     const images = [
         '/img/rf1.jpg',
-        '/img/image.png',
+        '/img/aaa.png',
         '/img/ss.jpg',
-        '/img/DienKinh --- 2024 - TDMU.jpg'
+        '/img/a.jpg',
+        '/img/image1.png',
+        '/img/image.png',
     ].filter(Boolean)
 
     const [menuOpen, setMenuOpen] = useState(false)
@@ -75,7 +77,7 @@ export default function Portfolio() {
                                 Xin chào, mình là <span className="text-primary">Nguyễn Viết Trường</span>
                             </h1>
                             <p className="mt-4 text-lg text-white/80 max-w-xl">
-                                Final-year IT @ TDMU • Thực tập sinh tại Oryza Systems. Tập trung Manual/API Testing, Playwright, k6 và CI/CD (GitLab, Jenkins). Mục tiêu: trở thành QA Automation Engineer.
+                                Final-year IT @ TDMU • Thực tập sinh tại Oryza Systems. Tập trung Manual/API Testing, Playwright, k6 và CI/CD (GitLab, Jenkins). Mục tiêu: trở thành QC Engineer.
                             </p>
                             <div className="mt-6 flex flex-wrap gap-3">
                                 <a href="#about" className="px-5 py-3 rounded-2xl bg-primary text-dark font-semibold hover:opacity-90">Giới thiệu</a>
