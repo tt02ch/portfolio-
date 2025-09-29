@@ -1,4 +1,8 @@
 import React from 'react';
-import Portfolio from './Portfolio';
-export default function App() { return <Portfolio /> }
+import Portfolio from './pages/Portfolio';
 
+function App() {
+  return <Portfolio />;
+}
+
+export default App;
