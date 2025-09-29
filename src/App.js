@@ -1,20 +1,8 @@
-// import { BrowserRouter, Route, Routes,  } from "react-router-dom";
-import './App.css';
-import { Footer } from './components/Footer';
-import { Header } from './components/Header';
-import { Homes } from './pages/Home';
-
-
-
+import React from 'react';
+import Portfolio from './pages/Portfolio';
 
 function App() {
-  return (
-   <>
-    <Header/>
-    {/* <Homes/> */}
-    {/* <Footer/> */}
-   </>
-  );
+  return <Portfolio />;
 }
 
 export default App;
