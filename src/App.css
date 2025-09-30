@@ -13,3 +13,35 @@ body{
 html{
     scroll-behavior: smooth;
 }
+/* App.css */
+html, body {
+  overflow-x: hidden;
+}
+
+/* Đảm bảo motion components hoạt động */
+.motion-element {
+  will-change: transform;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0f17;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3b82f6;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
