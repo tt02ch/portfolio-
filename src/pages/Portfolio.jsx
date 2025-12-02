@@ -191,11 +191,11 @@ export default function Portfolio() {
                         'Basic Cypress & K6'
                     ]} />
 
-                    <SkillCard title="Domain Knowledge" items={[
+                    {/* <SkillCard title="Domain Knowledge" items={[
                         'IoT & Smart Systems',
                         'HRM • ERP • Workflow',
                         'E-commerce Systems'
-                    ]} />
+                    ]} /> */}
                 </div>
             </section>
 
