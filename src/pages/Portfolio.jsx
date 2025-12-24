@@ -107,7 +107,7 @@ export default function Portfolio() {
                         >
                             <div className={`relative w-full max-w-md aspect-[4/5] rounded-3xl ${CARD} p-2 overflow-hidden group`}>
                                 <div className="absolute inset-0 bg-gradient-to-b from-white/5 to-transparent z-10" />
-                                <motion.img src={images[0]} alt="Nguyễn Viết Trường" className="w-full h-full object-cover rounded-2xl"
+                                <motion.img src={images[1]} alt="Nguyễn Viết Trường" className="w-full h-full object-cover rounded-2xl"
                                     whileHover={{ scale: 1.05 }} onLoad={() => setImageLoaded(true)}
                                     initial={{ opacity: 0 }} animate={{ opacity: imageLoaded ? 1 : 0 }} />
                                 <motion.div className="absolute inset-0 bg-blue-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl" />
