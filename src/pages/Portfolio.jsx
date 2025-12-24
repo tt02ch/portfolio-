@@ -140,7 +140,7 @@ export default function Portfolio() {
                         <h3 className="font-semibold text-xl">Quick Facts</h3>
                         <ul className="grid gap-3 text-white/70">
                             <li>• Final-year IT Student – Thu Dau Mot University</li>
-                            <li>• 9+ months real project experience</li>
+                            {/* <li>• 9+ months real project experience</li> */}
                             <li>• Strong Manual + Growing Automation skills</li>
                             <li>• Available full-time immediately</li>
                         </ul>
