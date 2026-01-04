@@ -5,8 +5,8 @@ import Maintenance from './pages/Maintenance';
 
 
 function App() {
-  // return <Portfolio />;
-  return <Maintenance />;
+  return <Portfolio />;
+  // return <Maintenance />;
 }
 
 export default App;
