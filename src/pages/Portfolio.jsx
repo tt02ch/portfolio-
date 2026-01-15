@@ -107,7 +107,7 @@ export default function Portfolio() {
                             whileTap={{ scale: 0.95 }}
                         >
                             <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-                                VIETTRUONG.dev
+                                VIETTRUONG.Test
                             </span>
                             <div className="absolute -bottom-1 left-0 w-full h-[2px] bg-gradient-to-r from-cyan-500 to-transparent scale-x-0 group-hover:scale-x-100 transition-transform duration-300" />
                         </motion.a>
