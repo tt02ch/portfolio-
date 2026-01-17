@@ -16,8 +16,7 @@ const MatrixRain = () => {
     canvas.width = canvas.offsetWidth
     canvas.height = canvas.offsetHeight
     
-    const chars = "01{}[]()<>=+-*/;:.,!@#$%^&";
-
+    const chars = "01アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン"
     const fontSize = 14
     const columns = canvas.width / fontSize
     const drops = Array(Math.floor(columns)).fill(1)
